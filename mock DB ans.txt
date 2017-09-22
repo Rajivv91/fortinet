@@ -1,0 +1,8 @@
+When the project is using Spring 4.3  and Hibernate 5.2, how to write the JUnit test without bounded 
+with concrete DB closely. In other words, How to mock DB in JUnit test for service method.  
+If not possible give the reason else list cases for the different scenario. 
+
+
+ANS: It is not possible to write Junit test for unbounded DB becuase For all these cases you need 
+integration tests, because we are now looking beyond the classes themselves.  
+Beacuse of these various external dependencies Mocking is not advaisable.
