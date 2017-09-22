@@ -1,0 +1,10 @@
+program 1 - lists :
+Time Complexity: O(n),Space Complexity: O(1)
+
+program 2 - Multidimensional array :  
+Time Complexity: O(n^m*sum) , Space Complexity: O(1)
+
+Program 3 - Subset problem
+Time Complexity: O(n*sum) , Space Complexity: O(sum)
+
+
